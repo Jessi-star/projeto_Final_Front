@@ -8,7 +8,7 @@ export default function Dashboard (){
     return (
         <div >
             <Header />
-            <h1 className="text-3xl font-bold underline">Olá </h1>
+            <h1 className="">.</h1>
             <AnuncioEstoque /> 
             <ColecoesDestaque/>
             <OfertaEspecial/> 
