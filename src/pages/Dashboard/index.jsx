@@ -6,7 +6,7 @@ import OfertaEspecial from "../../components/OfertaEspecial/Index";
 
 export default function Dashboard (){
     return (
-        <div >
+        <div className="w-full h-screen">
             <Header />
             <h1 className="">.</h1>
             <AnuncioEstoque /> 
