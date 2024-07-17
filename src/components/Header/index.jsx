@@ -2,45 +2,50 @@ import { LuShoppingCart } from "react-icons/lu";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 export default function Header() {
   return (
-    <div className="flex flex-col justify-start pl-14 pt-9 gap-12">
-        <div className="flex flex-items  gap-3">
-            <div className="flex  ">
-                <img
-                className="w-9 rounded-lg"
-                src="src\assets\img\logo.jpeg"
-                alt="Logo da Digital Collage"
-                title="Logo da Digital Collage"
-                />
-            </div>
-
-            <div className="text-3xl text-[#C92071] font-bold">
-                <h1>Digital Store</h1>
-            </div>
-            {/* flex gap-6 justify-center items-center pl-9 */}
-            
-            <div className="relative flex-1 p-1">
-                <input
-                className="bg-gray-100 rounded-md h-10 w-full"
-                type="text"
-                placeholder="Pesquisar produto..."/>
-
-                <div className="absolute inset-y-0 right-0 pl-4 flex items-center pointer-events-none">
-                <HiMiniMagnifyingGlass />
-                </div>
-            </div>
-           
-
-            <div className="flex justify-center items-center pl-10">
-                <h2 className="underline">Cadastre-se</h2>
-            </div>
-
-            <button className="p-5 text-center rounded bg-[#C92071] text-white">Entrar</button>
-
-            <div className="flex justify-center items-center pl-10">
-                <LuShoppingCart />
-            </div>
+    <div className="flex flex-col justify-start p-2 gap-12 ">
+      <div className="flex w-full h-[60px]">
+        <div className="flex w-[30%] h-full items-center justify-start gap-2">
+          <img
+            className="w-9 rounded-lg"
+            src="src\assets\img\logo.jpeg"
+            alt="Logo da Digital Collage"
+            title="Logo da Digital Collage"
+          />
+          <div className="text-3xl text-[#C92071] font-bold flex items-center justify-center">
+            <h1>Digital Store</h1>
+          </div>
         </div>
-      
+        <div className="flex h-full w-[40%] items-center justify-center">
+          <div className="w-full h-[70%] flex items-center justify-center bg-[#e0e0e0] rounded-md">
+            <input
+              className="w-[87%] h-full p-1 bg-[#e0e0e0]"
+              type="text"
+              placeholder="Pesquisar produto..." />
+
+            <div className="w-[10%] flex items-center justify-center cursor-pointer">
+              <HiMiniMagnifyingGlass />
+            </div>
+          </div>
+        </div>
+        <div className="w-[30%] items-center justify-end flex gap-10 pr-[40px]">
+          <div className="flex justify-center items-center">
+            <h2 className="underline cursor-pointer ">Cadastre-se</h2>
+          </div>
+
+          <button className="p-5 h-[40px] w-[100px] flex items-center justify-center rounded bg-[#C92071] hover:bg-[#973e69] text-white">Entrar</button>
+
+          <div className="relative flex justify-center items-centerr pl-10">
+            <div className="absolute top-[-7px] left-[50px] w-[15px] h-[15px] rounded-full bg-[#C92071] flex items-center justify-center">
+              <p className="text-[7px] text-white">2</p>
+            </div>
+            <a className="text-[#C92071]">
+            <LuShoppingCart size={20}/>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
       <div className="flex gap-10">
         <h2 className="text-[#474747] hover:text-[#C92071] hover:font-bold hover:underline">Home</h2>
 
