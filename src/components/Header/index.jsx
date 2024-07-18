@@ -1,5 +1,6 @@
 import { LuShoppingCart } from "react-icons/lu";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className="flex flex-col justify-start p-2 gap-12 ">
@@ -47,11 +48,16 @@ export default function Header() {
       </div>
 
       <div className="flex gap-10">
+        <Link to={"/"}>
         <h2 className="text-[#474747] hover:text-[#C92071] hover:font-bold hover:underline">Home</h2>
-
+        </Link>
+        <Link to={"/produtos"}>
         <h2 className="text-[#474747] hover:text-[#C92071] hover:font-bold hover:underline">Produtos</h2>
-
+        </Link>
+        <Link to={"/produtosFiltrados"}>
         <h2 className="text-[#474747] hover:text-[#C92071] hover:font-bold hover:underline">Categorias</h2>
+        </Link>
+        
 
         <h2 className="text-[#474747] hover:text-[#C92071] hover:font-bold hover:underline">Meus Pedidos</h2>
       </div>

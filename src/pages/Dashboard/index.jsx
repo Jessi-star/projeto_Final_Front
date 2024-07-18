@@ -6,12 +6,13 @@ import OfertaEspecial from "../../components/OfertaEspecial/Index";
 
 export default function Dashboard (){
     return (
-        <div className="w-full h-screen">
+        <div className="w-full h-screen flex flex-col">
             <Header />
             <h1 className="">.</h1>
             <AnuncioEstoque /> 
-            <ColecoesDestaque/>
             <OfertaEspecial/> 
+            <ColecoesDestaque/>
+
             <Footer />
         </div>
     )
