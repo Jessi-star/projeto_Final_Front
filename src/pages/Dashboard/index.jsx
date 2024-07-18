@@ -8,7 +8,6 @@ export default function Dashboard (){
     return (
         <div className="w-full h-screen flex flex-col">
             <Header />
-            <h1 className="">.</h1>
             <AnuncioEstoque /> 
             <OfertaEspecial/> 
             <ColecoesDestaque/>
