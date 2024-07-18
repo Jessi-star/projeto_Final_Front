@@ -1,47 +1,6 @@
-.container {
-    display: flex;
-    align-items: center;
-}
 
-.text-section {
-    margin-right: 20px; 
-}
 
-h2, h3 {
-    margin: 0;
-}
 
-.offer-button {
-    padding: 10px 15px;
-    background-color:  #b3004b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-.offer-button:hover {
-    background-color: #b3004b;
-}
 
-.image-section img {
-    max-width: 300px;
-    height: auto;
-}
-.indicadores {
-    display: flex;
-    gap: 10px; 
-}
 
-.ponto {
-    width: 10px;
-    height: 10px; 
-    background-color: #ccc; 
-    border-radius: 50%;
-    cursor: pointer; 
-    transition: background-color 0.3s; 
-}
-
-.ponto.ativo {
-    background-color: #333;
-}
