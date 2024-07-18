@@ -88,6 +88,36 @@ export default function Filter() {
 
                     </div>
                 </div>
+                    <div className="">
+
+                        <p className="font-bold flex flex-col pt-7">Filtrar por</p>
+                        <br/>
+                        <div className=" bg-black w-[10%] h-[1px]"></div>
+                        <aside>
+                            <p className="font-bold pt-8">Marca</p>
+                            <p>Adiddas</p>
+                            <p>Balenciaga</p>
+                            <p>K-Swiss</p>
+                            <p>Nike</p>
+                            <p>Puma</p>
+                            <br/>
+                            <p className="font-bold">Categoria</p>
+                            <p>Esporte e Lazer</p>
+                            <p>Casual</p>
+                            <p>Utilitário</p>
+                            <p>Corrida</p>
+                            <br/>
+                            <p className="font-bold">Gênero</p>
+                            <p>Masculino</p>
+                            <p>Feminino</p>
+                            <p>Unisex</p>
+                            <br/>
+                            <p className="font-bold">Estado</p>
+                            <p>Estado</p>
+                            <p>Novo</p>
+                            <p>Usado</p>
+                        </aside>
+                    </div>
             </div>
 
 
