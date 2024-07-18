@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Dashboard from './pages/Dashboard'
+import Filter from './components/Filter/Index'
+import Categoria from './components/Categoria/Index'
 
 function App() {
   
@@ -7,8 +9,8 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element= {<Dashboard/>}/>
-      <Route path='/produtos' element= {<p>Produtos</p>}/>
-      <Route path='/produtosFiltrados' element= {<p>Produtos Filtrados</p>}/>
+      <Route path='/produtos' element= {<Filter/>}/>
+      <Route path='/produtosFiltrados' element= {<Categoria/>}/>
     </Routes>
     </BrowserRouter>
   )
