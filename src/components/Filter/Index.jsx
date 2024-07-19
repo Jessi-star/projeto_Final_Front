@@ -180,6 +180,7 @@ export default function Filter() {
                         <h1>CONTATO</h1>
                         <p>Informação</p>
                         <p>Av. Santos Dumont, 1510 - 1</p>
+                        
                         <p>andar - Aldeota, Fortaleza -</p>
                         <p>CE, 60150-161</p>
 
