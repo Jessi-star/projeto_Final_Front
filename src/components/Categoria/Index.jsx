@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
+import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 
 export default function Categoria() {
     return (
@@ -66,7 +67,53 @@ export default function Categoria() {
                 <h2 className="text-[#474747] hover:text-[#C92071] hover:font-bold hover:underline">Meus Pedidos</h2>
             </div>
 
-            <div className="">
+
+            <div className="flex flex-row h-screen items-center justify-center">
+                <div className="bg-gray-100 flex justify-center items-center w-1/2 h-full">
+                    <div className="h-full w-[10%] flex items-center justify-center">
+                        <GoChevronLeft />
+                    </div>
+                    <div className="h-full w-[80%] flex items-center justify-center">
+                        <img src="src\assets\img\White-Sneakers-PNG-Clipart 2.png" alt="" />
+                    </div>
+                    <div className="h-full w-[10%] flex items-center justify-center">
+                        <GoChevronRight />
+                    </div>
+                </div>
+                <div className="w-1/2 h-full">
+                    <div className="max-w-md">
+                        <p class="font-bold text-4xl break-all">Tênis Nike Revolution
+                            <br />
+                            6 Next Nature Masculino</p>
+                    </div>
+                    <div class="font-inter text-xs font-medium leading-4 tracking-wider text-left">
+                        Casual | Nike | REF:38416711
+                    </div>
+                    <div className="flex space-x-10">
+                        <img src="src\assets\img\Stars.png" alt=""/>
+                        <img src="src\assets\img\Group 1103.png" alt=""/>
+                    </div>
+                    <div class="space-y-2 flex">
+                        <p class="font-inter text-xs font-bold leading-5 tracking-wider text-left">R$</p>
+                        <p class="font-inter text-xs font-bold leading-5 tracking-wider text-left">219,00</p>
+                        <p class="font-inter text-xs font-bold leading-5 tracking-wider text-left">219,00</p>
+                    </div>
+              
+                    <div class="font-inter text-xs font-bold leading-5 tracking-wider text-left">
+                        Descrição do produto
+                    </div>
+                    <div className="max-w-md">
+                        <p class="break-words text-sm my-3 break-all">Lorem ipsum dolor sit amet, consectetus adipiscing elit, 
+                        sed do 
+                        <br/>
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim
+                        <br/> 
+                        ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+
+                </div>
 
             </div>
 
