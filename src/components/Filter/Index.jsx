@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
+import { IoMdCheckmark } from "react-icons/io";
 
 export default function Filter() {
     return (
@@ -68,9 +69,9 @@ export default function Filter() {
 
 
 
-            <div className="border-solid border-2 border-indigo-600 w-[100%] h-[700px]" >
-                <div className="border-solid border-2 border-indigo-600 w-[100%] h-[90px] flex items-center justify-between ">
-                    <div className=" flex gap-3 h-[28px] font-bold">
+            <div className=" w-[100%] h-[700px]" >
+                <div className="border-solid border-2 w-[100%] h-[90px] flex items-center justify-between ">
+                    <div className=" flex gap-3 h-[28px] font-bold pl-4">
                         <p>Resultados para "Tênis"</p>
                         <p className="font-normal">- 389 produtos</p>
 
@@ -88,34 +89,48 @@ export default function Filter() {
 
                     </div>
                 </div>
-                    <div className="">
+                    <div className="pl-8 ">
 
-                        <p className="font-bold flex flex-col pt-7">Filtrar por</p>
+                        <p className="font-bold flex flex-col pt-7 ">Filtrar por</p>
                         <br/>
                         <div className=" bg-black w-[10%] h-[1px]"></div>
-                        <aside>
+                        <aside className="">
+                            <div className="flex flex-col gap-2">
                             <p className="font-bold pt-8">Marca</p>
-                            <p>Adiddas</p>
-                            <p>Balenciaga</p>
-                            <p>K-Swiss</p>
-                            <p>Nike</p>
-                            <p>Puma</p>
+                            <a className="text-black"><IoMdCheckmark /> </a>
+                            <p className="border-solid border-2 border-black bg-[#C92071] w-[20px] h-[20px] flex"> Adiddas</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Balenciaga</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">K-Swiss</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Nike</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Puma</p>
+                            </div>
                             <br/>
-                            <p className="font-bold">Categoria</p>
-                            <p>Esporte e Lazer</p>
-                            <p>Casual</p>
-                            <p>Utilitário</p>
-                            <p>Corrida</p>
+                
+                            <div className="flex flex-col gap-2">
+                            <p className="font-bold ">Categoria</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Esporte e Lazer</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Casual</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Utilitário</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Corrida</p>
+                            </div>
+                           
                             <br/>
+                            <div className="flex flex-col gap-2">
                             <p className="font-bold">Gênero</p>
-                            <p>Masculino</p>
-                            <p>Feminino</p>
-                            <p>Unisex</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Masculino</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Feminino</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Unisex</p>
+                            </div>
+                           
                             <br/>
+                            <div className="flex flex-col gap-2">
+                                
                             <p className="font-bold">Estado</p>
-                            <p>Estado</p>
-                            <p>Novo</p>
-                            <p>Usado</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Estado</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Novo</p>
+                            <p className="border-solid border-2 border-black w-[20px] h-[20px] flex">Usado</p>
+                            </div>
+                           
                         </aside>
                     </div>
             </div>
