@@ -95,6 +95,7 @@ export default function Filter() {
                         <div className=" bg-black w-[10%] h-[1px]"></div>
                         <aside>
                             <p className="font-bold pt-8">Marca</p>
+                            
                             <p>Adiddas</p>
                             <p>Balenciaga</p>
                             <p>K-Swiss</p>
