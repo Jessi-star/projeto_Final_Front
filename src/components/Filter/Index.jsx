@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
+import FilterComponent from "../FilterComponent";
 
 export default function Filter() {
     return (
@@ -68,14 +69,14 @@ export default function Filter() {
 
 
 
-            <div className="border-solid border-2 border-indigo-600 w-[100%] h-[700px]" >
-                <div className="border-solid border-2 border-indigo-600 w-[100%] h-[90px] flex items-center justify-between ">
-                    <div className=" flex gap-3 h-[28px] font-bold">
+            <div className=" w-[100%] h-[1100px] bg-gray-100" >
+                <div className=" flex items-center justify-between ">
+                    <div className=" flex gap-3 pl-4 h-[28px] font-bold">
                         <p>Resultados para "Tênis"</p>
                         <p className="font-normal">- 389 produtos</p>
 
                     </div>
-             
+
 
 
                     <div className="w-[300px] h-[60px] flex items-center justify-around">
@@ -88,36 +89,47 @@ export default function Filter() {
 
                     </div>
                 </div>
-                    <div className="">
-
+                <div className="pl-8 ">
+                    <div className="bg-white w-[280px] pl-8">
                         <p className="font-bold flex flex-col pt-7">Filtrar por</p>
-                        <br/>
-                        <div className=" bg-black w-[10%] h-[1px]"></div>
+                        <br />
+                        <div className=" bg-black w-[248px] h-[1px]"><hr /></div>
                         <aside>
-                            <p className="font-bold pt-8">Marca</p>
-                            <p>Adiddas</p>
-                            <p>Balenciaga</p>
-                            <p>K-Swiss</p>
-                            <p>Nike</p>
-                            <p>Puma</p>
-                            <br/>
-                            <p className="font-bold">Categoria</p>
-                            <p>Esporte e Lazer</p>
-                            <p>Casual</p>
-                            <p>Utilitário</p>
-                            <p>Corrida</p>
-                            <br/>
-                            <p className="font-bold">Gênero</p>
-                            <p>Masculino</p>
-                            <p>Feminino</p>
-                            <p>Unisex</p>
-                            <br/>
-                            <p className="font-bold">Estado</p>
-                            <p>Estado</p>
-                            <p>Novo</p>
-                            <p>Usado</p>
+                            <div className="">
+
+                                <FilterComponent text="Adidas" />
+                                <FilterComponent text="Balenciaga" />
+                                <FilterComponent text="K-Swiss" />
+                                <FilterComponent text="Nike" />
+                                <FilterComponent text="Puma" />
+                            </div>
+
+                            <br />
+                            <div className="">
+                                <p className="font-bold">Categoria</p>
+                                <FilterComponent text="Esporte e Lazer" />
+                                <FilterComponent text="Casual" />
+                                <FilterComponent text="Utilitário" />
+                                <FilterComponent text="Corrida" />
+                            </div>
+
+                            <br />
+                            <div className="">
+                                <p className="font-bold">Gênero</p>
+                                <FilterComponent text="Masculino" />
+                                <FilterComponent text="Feminino" />
+                                <FilterComponent text="Unisex" />
+                            </div>
+                            <br />
+                            <div className="">
+                                <p className="font-bold">Estado</p>
+                                <FilterComponent text="Novo" />
+                                <FilterComponent text="Usado" />
+                            </div>
                         </aside>
                     </div>
+
+                </div>
             </div>
 
 
