@@ -115,7 +115,15 @@ export default function Categoria() {
 
                 </div>
 
+            <div class="flex space-x-6 justify-start">
+                <a href="#" class="hover:text-[#C92071] hover:font-bold hover:underline">Home /</a>
+                <a href="#" class="hover:text-[#C92071] hover:font-bold hover:underline">Produtos /</a>
+                <a href="#" class="hover:text-[#C92071] hover:font-bold hover:underline">Tênis /</a>
+                <a href="#" class="hover:text-[#C92071] hover:font-bold hover:underline">Nike /</a>
+                <a href="#" class="hover:text-[#C92071] hover:font-bold hover:underline">Tênis Nike Revolution 6 Next Nature Masculino</a>
             </div>
+
+
 
 
             <footer className=" w-full h-[400px] flex flex-col bg-gray-950 gap-12 items-center justify-center pt-2">
