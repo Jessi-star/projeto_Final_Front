@@ -1,10 +1,10 @@
 export default function ColecoesDestaque() {
     return (
         <div className="">
-            <p className="font-bold text-[19px]">Coleções em destaque</p>
+            <p className="font-bold text-[19px] pl-20">Coleções em destaque</p>
 
  
-            <div className="border-solid flex p-[10px] w-[100%] ">
+            <div className="border-solid flex p-[10px] w-[100%] items-center justify-center ">
                 <div className="w-[350px] h-[201px]  border-solid bg-[#D8E3F2] m-[10px] relative">
                     <p className="rounded-lg bg-[#E7FF86] w-[96px] h-[32px]">30% OFF</p>
                     <h1 className="w-[172px] h-[72px] font-black">Novo Drop Supreme</h1>
