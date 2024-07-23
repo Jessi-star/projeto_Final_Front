@@ -3,7 +3,7 @@ import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 export default function Header() {
   return (
-    <div className="flex flex-col justify-start p-2 gap-12 ">
+    <div className="flex flex-col justify-start p-2 gap-12 bg-white ">
       <div className="flex w-full h-[60px]">
         <div className="flex w-[30%] h-full items-center justify-start gap-2">
           <img

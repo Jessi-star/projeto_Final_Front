@@ -1,6 +1,6 @@
 export default function OfertaEspecial() {
     return (
-        <div className="flex flex-row h-screen items-center justify-center">
+        <div className="flex flex-row h-screen items-center justify-center bg-white">
             <div className="w-1/2 h-full">
                 <img className="flex  left-20 bottom-[120px] pl-20" src="src/assets/img/nike.png" width={500} />
             </div>
