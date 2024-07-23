@@ -8,7 +8,7 @@ export default function Categoria() {
             <Header />
 
 
-            <div className="flex space-x-6 justify-start">
+            <div className="flex space-x-6 justify-start ms-20">
                 <a href="#" className="hover:text-[#C92071] hover:font-bold hover:underline">Home /</a>
                 <a href="#" className="hover:text-[#C92071] hover:font-bold hover:underline">Produtos /</a>
                 <a href="#" className="hover:text-[#C92071] hover:font-bold hover:underline">Tênis /</a>
@@ -17,8 +17,8 @@ export default function Categoria() {
             </div>
 
 
-            <div className="flex flex-row items-center justify-center">
-                <div className="bg-gray-100 flex justify-center items-center w-1/2 h-full">
+            <div className=" flex flex-row items-center justify-center ms-20">
+                <div className="bg-[#E2E3FF] flex justify-center items-center w-1/2 h-[506px]">
                     <div className="h-full w-[10%] flex items-center justify-center">
                         <GoChevronLeft />
                     </div>
@@ -31,13 +31,13 @@ export default function Categoria() {
                 </div>
 
 
-                <div className="w-1/2 h-full flex flex-col">
+                <div className="w-1/2 h-full flex flex-col gap-3 p-7">
                     <div className="max-w-md flex">
                         <p className="font-bold text-4xl break-all">Tênis Nike Revolution
                             <br />
                             6 Next Nature Masculino</p>
                     </div>
-                    <div className="font-inter text-xs font-medium leading-4 tracking-wider text-left ">
+                    <div className=" text-gray-600 font-inter text-xs font-medium leading-4 tracking-wider text-left ">
                         Casual | Nike | REF:38416711
                     </div>
                     <div className="flex space-x-10">
@@ -56,11 +56,9 @@ export default function Categoria() {
                         </div>
                     </div>
 
-                    <div className="font-inter text-xs font-bold leading-5 tracking-wider text-left">
-                        Descrição do produto
-                    </div>
                     <div className="max-w-md">
-                        <p className="break-words text-sm my-3 break-all">Lorem ipsum dolor sit amet, consectetus adipiscing elit,
+                        <h1 className="text-gray-500 font-inter text-xs font-bold leading-5 tracking-wider text-left">Descrição do produto</h1>
+                        <p className="break-words text-sm my-1 break-all">Lorem ipsum dolor sit amet, consectetus adipiscing elit,
                             sed do
                             <br />
                             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -70,7 +68,7 @@ export default function Categoria() {
                         </p>
                     </div>
 
-                    <div className="font-inter text-xs font-bold leading-5 tracking-wider text-left">
+                    <div className="text-gray-500 font-inter text-xs font-bold leading-5 tracking-wider text-left">
                         Tamanho
                     </div>
 
@@ -91,10 +89,10 @@ export default function Categoria() {
                             <span class="text-lg">43</span>
                         </button>
                     </div>
-                    <div className="font-inter text-xs font-bold leading-5 tracking-wider text-left">
+                    <div className="text-gray-500 font-inter text-xs font-bold leading-5 tracking-wider text-left">
                         Tamanho
                     </div>
-                    <div class="flex gap-2">
+                    <div class="flex gap-3">
                         <button class="w-8 h-8 rounded-full bg-[#70ecfc] hover:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
                         </button>
                         <button class="w-8 h-8 rounded-full bg-red-400 hover:bg-red-300 focus:outline-none focus:ring-2 focus:ring-red-500">
@@ -107,7 +105,7 @@ export default function Categoria() {
                     </div>
 
                     <div className="w-full">
-                        <button class="w-[150px] h-[40px] mt-4 bg-orange-400 text-white font-bold rounded">
+                        <button class="w-[150px] h-[30px] mt-4 bg-orange-400 text-white font-bold rounded">
                             Comprar
                         </button>
                     </div>
@@ -115,9 +113,9 @@ export default function Categoria() {
 
                 </div>
             </div>
-            <div className="w-ful items-center">
+            <div className="w-ful items-center ms-20 ">
                 <div className="w-1/2">
-                    <div className="h-full w-[80%] flex">
+                    <div className="h-full w-[100%] flex">
                         <img src="Fotos\Group 53617.png" alt="" className="w-[200px] h-[100px] rounded-lg" />
                         <img src="Fotos\Group 53616.png" alt="" className="w-[200px] h-[100px] rounded-lg" />
                         <img src="Fotos\Group 53615.png" alt="" className="w-[200px] h-[100px] rounded-lg" />
