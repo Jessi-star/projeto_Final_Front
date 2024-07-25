@@ -10,7 +10,7 @@ export default function ListaTenis({ limit = 15}) {
     }, [])
 
     return (
-        <div className="w-full justify-center flex gap-4 flex-wrap pt-4">
+        <div className="w-full justify-center flex gap-[100px] flex-wrap pt-4">
             {produtos.map((produto) => {
                 return (
                     <div className="w-[280px] h-[400px] flex flex-col">
